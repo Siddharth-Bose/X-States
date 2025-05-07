@@ -149,7 +149,7 @@ export default function Selector() {
           <span className={styles.stateCityText}>
             {`${selectedState}, ${selectedCountry}`}
           </span>
-          <h6 className={styles.testCase}>
+          <h6 className={styles.srOnly}>
             You selected {selectedCity}, {selectedState}, {selectedCountry}
           </h6>
         </span>
