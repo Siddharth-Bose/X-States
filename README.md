@@ -18,9 +18,9 @@ A ReactJS application that provides a dynamic dropdown interface for selecting c
 
 ## 📸 Screenshot
 
-> A responsive location selector UI with country, state, and city dropdowns. *(Image not included in this README but must match the UI and functionality described below.)*
+> A responsive location selector UI with country, state, and city dropdowns. _(Image not included in this README but must match the UI and functionality described below.)_
 
-![X-States UI](https://user-images.githubusercontent.com/your-id/your-uploaded-image.png)
+![X-States UI](https://github.com/Siddharth-Bose/X-States/blob/main/public/Screenshot.png)
 
 ---
 
@@ -41,13 +41,15 @@ You selected <City>, <State>, <Country>
 ## 📁 Folder Structure
 
 ```
+
 X-States/
 ├── components/
 │ └── Selector.js
 │ └── Selector.module.css
 ├── App.js
 ├── App.module.css
-```
+
+````
 
 ---
 
@@ -65,7 +67,7 @@ GET https://crio-location-selector.onrender.com/country=<country_name>/states
 
 # Get list of cities for a selected country and state
 GET https://crio-location-selector.onrender.com/country=<country_name>/state=<state_name>/cities
-```
+````
 
 ---
 
@@ -76,3 +78,4 @@ git clone https://github.com/your-username/x-states.git
 cd x-states
 npm install
 npm run dev
+```
