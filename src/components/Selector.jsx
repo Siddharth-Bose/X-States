@@ -145,9 +145,9 @@ export default function Selector() {
       {selectedCity && (
         <p className={styles.paragraph}>
           {`You selected `}
-          <span className={styles.countryText}>{`${selectedCountry} `}</span>
+          <span className={styles.countryText}>{`${selectedCity} `}</span>
           <span className={styles.stateCityText}>
-            {`${selectedState}, ${selectedCity}`}
+            {`${selectedState}, ${selectedCountry}`}
           </span>
         </p>
       )}
