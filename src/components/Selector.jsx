@@ -143,13 +143,13 @@ export default function Selector() {
       </div>
       {/* Final output showing the selected location */}
       {selectedCity && (
-        <p className={styles.paragraph}>
+        <span className={styles.paragraph}>
           {`You selected `}
           <span className={styles.countryText}>{`${selectedCity} `}</span>
           <span className={styles.stateCityText}>
             {`${selectedState}, ${selectedCountry}`}
           </span>
-        </p>
+        </span>
       )}
     </>
   );
