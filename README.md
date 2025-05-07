@@ -41,14 +41,12 @@ text: You selected <City>, <State>, <Country>
 ## 📁 Folder Structure
 
 ```
-
-X-States/
+X-States/src
 ├── components/
 │ └── Selector.js
 │ └── Selector.module.css
 ├── App.js
 ├── App.module.css
-
 ````
 
 ---
