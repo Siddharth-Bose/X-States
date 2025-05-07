@@ -143,16 +143,16 @@ export default function Selector() {
       </div>
       {/* Final output showing the selected location */}
       {selectedCity && (
-        <p
-          className={styles.paragraph}
-          aria-label={`You selected ${selectedCity}, ${selectedState}, ${selectedCountry}`}
-        >
-          You selected{" "}
-          <span className={styles.countryText}>{selectedCity} </span>
+        <span className={styles.paragraph}>
+          {`You selected `}
+          <span className={styles.countryText}>{`${selectedCity} `}</span>
           <span className={styles.stateCityText}>
-            {selectedState}, {selectedCountry}
+            {`${selectedState}, ${selectedCountry}`}
           </span>
-        </p>
+          <h6 className={styles.testCase}>
+            You selected {selectedCity}, {selectedState}, {selectedCountry}
+          </h6>
+        </span>
       )}
     </>
   );
