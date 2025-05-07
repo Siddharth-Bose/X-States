@@ -72,7 +72,7 @@ GET https://crio-location-selector.onrender.com/country=<country_name>/state=<st
 ## 🚀 How to Run
 
 ```bash
-git clone https://github.com/your-username/x-states.git
+git clone https://github.com/Siddharth-Bose/X-States
 cd x-states
 npm install
 npm run dev
