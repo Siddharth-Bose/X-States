@@ -4,7 +4,6 @@ A ReactJS application that provides a dynamic dropdown interface for selecting c
 
 ---
 
-
 ## 🚀 Features
 
 - Dynamically fetches countries, states, and cities from an API.
