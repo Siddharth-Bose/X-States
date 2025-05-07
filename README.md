@@ -18,7 +18,7 @@ A ReactJS application that provides a dynamic dropdown interface for selecting c
 
 ## 📸 Screenshot
 
-> A responsive location selector UI with country, state, and city dropdowns. _(Image not included in this README but must match the UI and functionality described below.)_
+> A responsive location selector UI with country, state, and city dropdowns.
 
 ![X-States UI](https://github.com/Siddharth-Bose/X-States/blob/main/public/Screenshot.png)
 
