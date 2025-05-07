@@ -1,6 +1,6 @@
 # 🗺️ X-States
 
-A ReactJS application that provides a dynamic dropdown interface for selecting countries, states, and cities using the [Crio Location Selector API](https://crio-location-selector.onrender.com/). The app populates dropdowns based on user selection and displays the selected location dynamically.
+A ReactJS application that provides a dynamic dropdown interface for selecting countries, states, and cities using the [Location Selector API](https://crio-location-selector.onrender.com/). The app populates dropdowns based on user selection and displays the selected location dynamically.
 
 ---
 
