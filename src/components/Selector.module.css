@@ -1,0 +1,32 @@
+.selectWrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+.countrySelect {
+  width: 30%;
+  padding: 10px;
+}
+.stateSelect {
+  width: 20%;
+  padding: 10px;
+}
+.citySelect {
+  width: 15%;
+  padding: 10px;
+}
+.paragraph {
+  color: #000;
+  font-weight: 600;
+  font-size: 24px;
+}
+.countryText {
+  font-size: 32px;
+  font-weight: 900;
+}
+.stateCityText {
+  color: #999;
+  font-weight: 800;
+}
