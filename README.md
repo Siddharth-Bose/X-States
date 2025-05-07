@@ -34,9 +34,9 @@ Create an interactive location selection component that dynamically populates:
 
 And then displays the selected values as:
 
-```text
-You selected <City>, <State>, <Country>
-
+```
+text: You selected <City>, <State>, <Country>
+```
 
 ## 📁 Folder Structure
 
